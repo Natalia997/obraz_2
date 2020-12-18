@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:18.04
 LABEL maintainer="Natalia Jakubczak natalia.jakubczak@pollub.edu.pl"
 RUN apt-get update -y
 RUN apt-get upgrade -y
